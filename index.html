@@ -17,8 +17,25 @@
     <body background="background.jpg">
         <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Instructions</button>
         <button class="btn btn-success" onclick="startGame()" id="start">Play Game</button>
+        <button class="btn btn-warning" onclick="restart()" id="restart">Restart</button>
         <h4></h4>
-        <div></div>
+        <div id="myModal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal">&times;</button>
+                        <h3>Instructions</h3>
+                              <div class="modal-body">
+                                <ol>Keep your laptop screen straight</ol>
+                                <ol>Move yourself approximately 3-4 feet away from the laptop</ol>
+                                <ol> Move your right wrist in an ascending and descending manner, a red dot should appear on your right wrist</ol>
+                                <ol>Now press the play button , abd again move yourself 3-4 feet away from the laptop</ol>
+                                <ol>The red paddel is your paddel, that will move as per the movement of your right wrist</ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script src="main.js"></script>
     </body>
 </html>
